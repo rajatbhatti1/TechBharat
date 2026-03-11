@@ -1,6 +1,6 @@
 function visitWebsite(){
 
-window.open("https://techBharat.com","_blank")
+window.open("https://www.youtube.com/@Techbharat12","_blank")
 
 }
 
