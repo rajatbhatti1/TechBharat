@@ -1,13 +1,9 @@
-function visitWebsite(){
+function openWhatsApp(message){
 
-window.open("https://www.youtube.com/@Techbharat12","_blank")
+let phone = "919999999999"; // 👉 replace with your number
 
-}
+let url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
-function scrollCourses(){
-
-document.getElementById("courses").scrollIntoView({
-behavior:"smooth"
-})
+window.open(url, "_blank");
 
 }
