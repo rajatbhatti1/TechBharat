@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,118 +8,97 @@
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
 
+<!-- HEADER -->
 <header>
-
-<h2 class="logo">TechBharat</h2>
+<h2>TechBharat</h2>
 
 <nav>
-
 <a href="#home">Home</a>
 <a href="#courses">Courses</a>
-<a href="https://www.youtube.com/@Techbharat12/videos">YouTube</a>
-<a href="http://testingwithtechbharat.blogspot.com/">Blog</a>
-
+<a href="#services">Services</a>
+<a href="http://testingwithtechbharat.blogspot.com/" target="_blank">Blogs</a>
+<a href="#youtube">YouTube</a>
 </nav>
-
 </header>
 
+<!-- HERO -->
 <section class="hero" id="home">
+<h1>Learn Testing & Backend Skills</h1>
+<p>Manual • API • Automation (Playwright)</p>
 
-<h1>Learn Software Testing</h1>
-
-<p>Playwright • Manual Testing • Much More...</p>
-
-<div class="hero-buttons">
-
-<button onclick="visitWebsite()">Visit Website</button>
-
-<button onclick="scrollCourses()">Explore Courses</button>
-
-</div>
-
-</section>
-
-<section class="about">
-
-<h2>About TechBharat</h2>
-
-<p>
-Welcome to Tech Bharat, where we share insights and tips on both manual and automated testing. Our goal is to enhance your software testing skills and ensure high-quality software through effective testing practices. Join us in exploring the best methods and tools to make your testing process more efficient and reliable.
-
-</p>
-
-<div class="features">
-
-<div class="feature">⚡ Practical Projects</div>
-<div class="feature">💼 Interview Preparation</div>
-<div class="feature">🚀 Industry Skills</div>
-
-</div>
-
+<button onclick="openWhatsApp()">Join Now</button>
 </section>
 
 <section id="courses">
 
 <h2>Our Courses</h2>
 
-<div class="course-container">
+<!-- 🔥 LIVE & UPCOMING BATCHES -->
+<div class="batch-container">
+
+<div class="batch-card live">
+<h3>🔥 Live Batch</h3>
+<p>Manual + API + Playwright</p>
+<p>Ongoing Batch | Limited Seats</p>
+<button onclick="openWhatsApp()">Enroll Now</button>
+</div>
+
+<div class="batch-card upcoming">
+<h3>🚀 Upcoming Batch</h3>
+<p>Next Full Stack Testing Batch</p>
+<p>Starting Soon</p>
+<button onclick="openWhatsApp()">Reserve Seat</button>
+</div>
+
+<div class="batch-card fullstack">
+<h3>💼 Full Stack Testing</h3>
+<p>Complete Testing Program</p>
+<p>Beginner to Advanced</p>
+<button onclick="openWhatsApp()">Enroll Now</button>
+</div>
+
+</div>
+@@ -73,19 +79,25 @@
+<div class="course-card">
+<h4>Manual Testing</h4>
+<p>Learn testing basics from scratch.</p>
+<button onclick="openWhatsApp()">View Course</button>
+</div>
 
 <div class="course-card">
-<h3>Java Backend</h3>
-<p>Master Java fundamentals and backend architecture.</p>
+<h4>API Testing</h4>
+<p>Master REST APIs & Postman.</p>
+<button onclick="openWhatsApp()">View Course</button>
 </div>
 
 <div class="course-card">
-<h3>Spring Boot</h3>
-<p>Build scalable REST APIs and production systems.</p>
-</div>
-
-<div class="course-card">
-<h3>System Design</h3>
-<p>Learn architecture used in real tech companies.</p>
+<h4>Playwright Testing</h4>
+<p>Automation with modern tools.</p>
+<button onclick="openWhatsApp()">View Course</button>
 </div>
 
 </div>
-
-</section>
-
-<section id="youtube">
-
-<h2>Watch Our Tutorials</h2>
-
-<div class="video-container">
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/yRcqkvBEdfc?si=CBedfUwEksqQvugn"
-frameborder="0"
-allowfullscreen>
-</iframe>
-
+@@ -104,19 +116,19 @@
+<div class="service-card">
+<h4>Daily Job Updates</h4>
+<p>Get latest job openings daily.</p>
+<button onclick="openWhatsApp()">Join Now</button>
 </div>
 
-</section>
+<div class="service-card">
+<h4>Interview Questions</h4>
+<p>Latest real interview questions.</p>
+<button onclick="openWhatsApp()">Access Now</button>
+</div>
 
-<section class="cta">
+<div class="service-card">
+<h4>Interview Support</h4>
+<p>1:1 guidance & mock interviews.</p>
+<button onclick="openWhatsApp()">Get Help</button>
+</div>
 
-<h2>Start Your Tech Journey Today</h2>
-
-<button onclick="visitWebsite()">Join TechBharat</button>
-
-</section>
-
-<footer>
-
-<p>© 2026 TechBharat</p>
-
-</footer>
-
-<script src="script.js"></script>
-
-</body>
-</html>
+</div>
